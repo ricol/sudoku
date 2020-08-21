@@ -1,4 +1,4 @@
-unit UnitConfig;
+unit Config;
 
 interface
 
@@ -33,7 +33,7 @@ implementation
 {$R *.dfm}
 
 uses
-  UnitCommon;
+  Common;
 
 procedure TFormSpeed.BitBtn1Click(Sender: TObject);
 begin

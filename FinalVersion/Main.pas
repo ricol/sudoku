@@ -1,11 +1,11 @@
-unit UnitMain;
+unit Main;
 
 interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, Buttons, ExtCtrls,
-  UnitCommon, UnitTStack, UnitTTable, UnitTMySpeedButton, UnitConfig, UnitAbout;
+  Common, uStack, uTable, MySpeedButton, Config, About;
 
 type
   TFormMain = class(TForm)

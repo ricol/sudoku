@@ -1,9 +1,9 @@
-unit UnitTTable;
+unit uTable;
 
 interface
 
 uses
-  Messages, Windows, SysUtils, UnitCommon, UnitTStack;
+  Messages, Windows, SysUtils, Common, uStack;
 
 type
   TTable = class

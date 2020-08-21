@@ -1,4 +1,4 @@
-unit UnitAbout;
+unit About;
 
 interface
 
@@ -32,7 +32,7 @@ implementation
 {$R *.dfm}
 
 uses
-  ShellAPI, UnitCommon;
+  ShellAPI, Common;
 
 procedure TFormAbout.FormCreate(Sender: TObject);
 begin

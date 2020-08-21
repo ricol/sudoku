@@ -1,8 +1,8 @@
-unit UnitTStack;
+unit uStack;
 
 interface
 
-uses UnitCommon;
+uses Common;
 
 type
   TStack = class

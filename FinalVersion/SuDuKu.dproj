@@ -54,7 +54,7 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
         <Icon_MainIcon>SuDuKu_Icon.ico</Icon_MainIcon>
-        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <DCC_Namespace>System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
         <Icon_MainIcon>SuDuKu_Icon.ico</Icon_MainIcon>
@@ -72,17 +72,17 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="UnitMain.pas">
+        <DCCReference Include="Main.pas">
             <Form>FormMain</Form>
         </DCCReference>
-        <DCCReference Include="UnitCommon.pas"/>
-        <DCCReference Include="UnitTStack.pas"/>
-        <DCCReference Include="UnitTTable.pas"/>
-        <DCCReference Include="UnitTMySpeedButton.pas"/>
-        <DCCReference Include="UnitConfig.pas">
+        <DCCReference Include="Common.pas"/>
+        <DCCReference Include="uStack.pas"/>
+        <DCCReference Include="uTable.pas"/>
+        <DCCReference Include="MySpeedButton.pas"/>
+        <DCCReference Include="Config.pas">
             <Form>FormSpeed</Form>
         </DCCReference>
-        <DCCReference Include="UnitAbout.pas">
+        <DCCReference Include="About.pas">
             <Form>FormAbout</Form>
         </DCCReference>
         <BuildConfiguration Include="Debug">
@@ -112,7 +112,7 @@
                     <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
                 </Parameters>
                 <Language>
-                    <Language Name="RootDir">C:\Users\ricolwang\Desktop\Programs\Suduku\</Language>
+                    <Language Name="RootDir">..\..\..\..\..\Documents and Settings\wangxinghe\My Documents\Programs\Delphi\Game\Suduku\FinalVersion\</Language>
                 </Language>
                 <VersionInfo>
                     <VersionInfo Name="IncludeVerInfo">False</VersionInfo>

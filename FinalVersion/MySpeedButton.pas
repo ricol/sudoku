@@ -1,9 +1,9 @@
-unit UnitTMySpeedButton;
+unit MySpeedButton;
 
 interface
 
 uses
-  Messages, Windows, Buttons, UnitCommon;
+  Messages, Windows, Buttons, Common;
 
 type
   TMySpeedButton = class(TSpeedButton)

@@ -2,13 +2,13 @@ program SuDuKu;
 
 uses
   Forms,
-  UnitMain in 'UnitMain.pas' {FormMain},
-  UnitCommon in 'UnitCommon.pas',
-  UnitTStack in 'UnitTStack.pas',
-  UnitTTable in 'UnitTTable.pas',
-  UnitTMySpeedButton in 'UnitTMySpeedButton.pas',
-  UnitConfig in 'UnitConfig.pas' {FormSpeed},
-  UnitAbout in 'UnitAbout.pas' {FormAbout};
+  Main in 'Main.pas' {FormMain},
+  Common in 'Common.pas',
+  uStack in 'uStack.pas',
+  uTable in 'uTable.pas',
+  MySpeedButton in 'MySpeedButton.pas',
+  Config in 'Config.pas' {FormSpeed},
+  About in 'About.pas' {FormAbout};
 
 {$R *.res}
 
