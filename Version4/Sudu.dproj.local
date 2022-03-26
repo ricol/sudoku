@@ -1,2 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/03/26 18:42:14.718,C:\Users\wangxinghe\Documents\RAD Studio\Projects\Delphi\Game\sudoku\Version4\common.pas=C:\Users\wangxinghe\Documents\RAD Studio\Projects\Delphi\Game\sudoku\Version4\UnitCommon.pas</Transaction>
+    <Transaction>2022/03/26 18:42:18.708,C:\Users\wangxinghe\Documents\RAD Studio\Projects\Delphi\Game\sudoku\Version4\stack.pas=C:\Users\wangxinghe\Documents\RAD Studio\Projects\Delphi\Game\sudoku\Version4\UnitTStack.pas</Transaction>
+    <Transaction>2022/03/26 18:42:21.993,C:\Users\wangxinghe\Documents\RAD Studio\Projects\Delphi\Game\sudoku\Version4\table.pas=C:\Users\wangxinghe\Documents\RAD Studio\Projects\Delphi\Game\sudoku\Version4\UnitTTable.pas</Transaction>
+  </Transactions>
+</BorlandProject>

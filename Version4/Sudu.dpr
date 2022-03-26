@@ -4,9 +4,9 @@ program Sudu;
 
 uses
   SysUtils,
-  UnitTStack in 'UnitTStack.pas',
-  UnitCommon in 'UnitCommon.pas',
-  UnitTTable in 'UnitTTable.pas';
+  stack in 'stack.pas',
+  common in 'common.pas',
+  table in 'table.pas';
 
 var
   GTable: TTable;
